@@ -7,10 +7,23 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
   },
   "dependencies": {
+    "@babel/polyfill": "^7.0.0",
+    "@zeit/next-css": "^0.2.0",
+    "config": "^2.0.1",
+    "core-js": "^2.5.7",
+    "enzyme-adapter-react-16": "^1.5.0",
+    "eslint": "^5.6.0",
+    "lodash": "^4.17.11",
     "next": "^6.1.2",
+    "next-config": "^0.0.2",
+    "next-offline": "^2.13.0",
+    "next-redux-wrapper": "^2.0.0",
     "normalizr": "^3.2.4",
     "react": "^16.5.1",
     "react-dom": "^16.5.1",
@@ -21,9 +34,17 @@
     "redux-form": "^7.4.2",
     "redux-observable": "^1.0.0",
     "redux-ui": "^0.1.1",
-    "styled-components": "^3.4.6"
+    "reselect": "^3.0.1",
+    "rxjs": "^6.3.2",
+    "styled-components": "^3.4.6",
+    "webpack-bundle-analyzer": "^3.0.2",
+    "workbox-webpack-plugin": "^3.5.0"
   },
   "devDependencies": {
+    "@babel/cli": "^7.1.0",
+    "@babel/core": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
     "enzyme": "^3.6.0",
     "jest": "^23.6.0",
     "storybook": "^1.0.0"

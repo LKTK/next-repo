@@ -1,0 +1,80 @@
+Arguments: 
+  /usr/bin/node /root/.yarn/bin/yarn.js install
+
+PATH: 
+  /root/.yarn/bin:/root/.config/yarn/global/node_modules/.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/iCLS:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/iCLS:/mnt/c/Windows/System32:/mnt/c/Windows:/mnt/c/Windows/System32/wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/Intel/WiFi/bin:/mnt/c/Program Files/Common Files/Intel/WirelessCommon:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Yarn/bin:/mnt/c/Users/geodario.rezende/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/geodario.rezende/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/geodario.rezende/AppData/Roaming/npm:/snap/bin
+
+Yarn version: 
+  1.9.4
+
+Node version: 
+  8.11.4
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, lstat '/usr/local/share/.cache/yarn/v2/npm-async-limiter-1.0.0-78faed8c3d074ab81f22b4e985d79e8738f720f8/coverage/lcov-report/base.css'
+
+npm manifest: 
+  {
+    "name": "next-repo",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/LKTK/next-repo.git",
+    "license": "MIT",
+    "scripts": {
+      "dev": "next",
+      "build": "next build",
+      "start": "next start",
+      "test": "jest",
+      "test:watch": "jest --watch",
+      "test:coverage": "jest --coverage"
+    },
+    "dependencies": {
+      "@babel/polyfill": "^7.0.0",
+      "@zeit/next-css": "^0.2.0",
+      "config": "^2.0.1",
+      "core-js": "^2.5.7",
+      "enzyme-adapter-react-16": "^1.5.0",
+      "eslint": "^5.6.0",
+      "lodash": "^4.17.11",
+      "next": "^6.1.2",
+      "next-config": "^0.0.2",
+      "next-offline": "^2.13.0",
+      "next-redux-wrapper": "^2.0.0",
+      "normalizr": "^3.2.4",
+      "react": "^16.5.1",
+      "react-dom": "^16.5.1",
+      "react-redux": "^5.0.7",
+      "recompose": "^0.30.0",
+      "redux": "^4.0.0",
+      "redux-actions": "^2.6.1",
+      "redux-form": "^7.4.2",
+      "redux-observable": "^1.0.0",
+      "redux-ui": "^0.1.1",
+      "reselect": "^3.0.1",
+      "styled-components": "^3.4.6",
+      "webpack-bundle-analyzer": "^3.0.2",
+      "workbox-webpack-plugin": "^3.5.0"
+    },
+    "devDependencies": {
+      "@babel/cli": "^7.1.0",
+      "@babel/core": "^7.1.0",
+      "@babel/preset-env": "^7.1.0",
+      "@babel/preset-react": "^7.0.0",
+      "@storybook/addon-actions": "^3.4.0-alpha.1",
+      "@storybook/addon-info": "^3.4.0-alpha.1",
+      "@storybook/addon-knobs": "^3.4.6",
+      "@storybook/react": "^3.4.0-alpha.1",
+      "enzyme": "^3.6.0",
+      "jest": "^23.6.0",
+      "storybook": "^1.0.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
