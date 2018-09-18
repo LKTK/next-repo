@@ -2,7 +2,7 @@ import React from "react";
 import { Provider } from "react-redux";
 import App, { Container } from "next/app";
 import withRedux from "next-redux-wrapper";
-import { configureStore } from "../src/store";
+import { configureStore as makeStore } from "../src/store";
 
 class ApplicationBootstrap extends App {
   static async getInitialProps({ Component, ctx }) {
@@ -29,4 +29,4 @@ class ApplicationBootstrap extends App {
   }
 }
 
-export default withRedux(configureStore())(ApplicationBootstrap);
+export default withRedux(makeStore)(ApplicationBootstrap);
